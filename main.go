@@ -8,7 +8,7 @@ import (
 
 type stack []string
 
-func Calc(input string) int {
+ func Calc(input string) int {
 	return 0
 }
 
@@ -17,11 +17,11 @@ func Calc2(input string) string {
 	return input
 }
 
-func Calc3(input string) int {
+func Calc3( input string ) int {
 	return 3
 }
 
-func Calc4(input string) int {
+func Calc4 (input string) int {
 	return 4
 }
 
