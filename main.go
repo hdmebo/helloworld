@@ -25,8 +25,18 @@ func (s *stack) Pop() string {
 	return value
 }
 
+// Calc1 is calc return 1
+func Calc1(input string) int {
+	return 1
+}
+
 func Calc(input string) int {
 	return 0
+}
+
+// always return given string
+func Calc2(input string) string {
+	return string
 }
 
 func main() {
