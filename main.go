@@ -6,6 +6,15 @@ import (
 
 type stack []string
 
+func Calc(input string) int {
+	return 0
+}
+
+// change line - always return given string
+func Calc2(input string) string {
+	return input
+}
+
 func (s *stack) Push(value string) {
 	fmt.Printf("BBB %p\n", s)
 	temp := append(*s, value)
@@ -30,13 +39,8 @@ func Calc1(input string) int {
 	return 1
 }
 
-func Calc(input string) int {
-	return 0
-}
-
-// always return given string
-func Calc2(input string) string {
-	return input
+func Calc3(input string) int {
+	return 3
 }
 
 func main() {
