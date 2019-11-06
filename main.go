@@ -10,6 +10,10 @@ func Calc(input string) int {
 	return 0
 }
 
+func Calc3(input string) int {
+	return 3
+}
+
 // change line - always return given string
 func Calc2(input string) string {
 	return input
@@ -37,10 +41,6 @@ func (s *stack) Pop() string {
 // Calc1 is calc return 1
 func Calc1(input string) int {
 	return 1
-}
-
-func Calc3(input string) int {
-	return 3
 }
 
 func main() {
