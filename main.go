@@ -4,19 +4,21 @@ import (
 	"fmt"
 )
 
+// some comments
+
 type stack []string
 
 func Calc(input string) int {
 	return 0
 }
 
-func Calc3(input string) int {
-	return 3
-}
-
 // change line - always return given string
 func Calc2(input string) string {
 	return input
+}
+
+func Calc3(input string) int {
+	return 3
 }
 
 func (s *stack) Push(value string) {
