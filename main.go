@@ -1,5 +1,7 @@
 package main
 
+//some commets
+
 import (
 	"fmt"
 )
@@ -10,13 +12,17 @@ func Calc(input string) int {
 	return 0
 }
 
+// change line - always return given string
+func Calc2(input string) string {
+	return input
+}
+
 func Calc3(input string) int {
 	return 3
 }
 
-// change line - always return given string
-func Calc2(input string) string {
-	return input
+func Calc4(input string) int {
+	return 4
 }
 
 func (s *stack) Push(value string) {
