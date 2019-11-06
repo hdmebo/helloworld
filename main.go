@@ -34,7 +34,7 @@ func main() {
 	stack := stack{}
 	stack.Push("3")
 	stack.Push("5")
-	stack.Push(8)
+	stack.Push("8")
 	// operatorStack := []string{}
 	fmt.Printf("%p %v\n", stack, stack)
 	fmt.Println(stack.Pop())
