@@ -30,7 +30,6 @@ func Calc(input string) int {
 }
 
 func main() {
-	a := 1
 	stack := stack{}
 	stack.Push("3")
 	stack.Push("5")
