@@ -36,7 +36,7 @@ func Calc(input string) int {
 
 // always return given string
 func Calc2(input string) string {
-	return string
+	return input
 }
 
 func main() {
