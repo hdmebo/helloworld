@@ -21,10 +21,6 @@ func Calc3(input string) int {
 	return 3
 }
 
-func Calc4(input string) int {
-	return 4
-}
-
 func (s *stack) Push(value string) {
 	fmt.Printf("BBB %p\n", s)
 	temp := append(*s, value)
