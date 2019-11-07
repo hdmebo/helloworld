@@ -17,10 +17,6 @@ func Calc2(input string) string {
 	return input
 }
 
-func Calc3(input string) int {
-	return 3
-}
-
 func (s *stack) Push(value string) {
 	fmt.Printf("BBB %p\n", s)
 	temp := append(*s, value)
