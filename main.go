@@ -12,6 +12,7 @@ func Calc(input string) int {
 	// commit 1
 	// commit 2
 	// commit 3
+	// commit 4
 	return 0
 }
 
@@ -26,7 +27,8 @@ func Calc3(input string) int {
 }
 
 func Calc4(input string) int {
-	return 4 + 1
+	// commit 4
+	return 4 + 2
 }
 
 func (s *stack) Push(value string) {
