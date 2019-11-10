@@ -11,21 +11,22 @@ type stack []string
 func Calc(input string) int {
 	// commit 1
 	// commit 2
+	// commit 3
 	return 0
 }
 
 // change line - always return given string
 func Calc2(input string) string {
-	return input + "y"
+	return input + "z"
 }
 
 func Calc3(input string) int {
-	// commit 2
+	// commit 3
 	return 3
 }
 
 func Calc4(input string) int {
-	return 4
+	return 4 + 1
 }
 
 func (s *stack) Push(value string) {
