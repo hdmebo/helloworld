@@ -10,15 +10,17 @@ type stack []string
 
 func Calc(input string) int {
 	// commit 1
+	// commit 2
 	return 0
 }
 
 // change line - always return given string
 func Calc2(input string) string {
-	return input + "x"
+	return input + "y"
 }
 
 func Calc3(input string) int {
+	// commit 2
 	return 3
 }
 
